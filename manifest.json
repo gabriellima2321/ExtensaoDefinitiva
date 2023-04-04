@@ -1,0 +1,13 @@
+{
+    "name": "Minha extenssão baseada em tempo",
+    "version": "1.0",
+    "description": "Abre um link baseado em uma hora definida",
+    "manifest_version": 2,
+    "permissions":[
+        "tabs"
+    ],
+    "background":{
+        "scripts": ["background.js"],
+        "persistent" :false
+    }
+}
