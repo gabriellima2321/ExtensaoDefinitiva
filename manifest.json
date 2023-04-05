@@ -1,13 +1,16 @@
 {
-    "name": "Minha extenssão baseada em tempo",
-    "version": "1.0",
-    "description": "Abre um link baseado em uma hora definida",
-    "manifest_version": 2,
-    "permissions":[
-        "tabs"
-    ],
-    "background":{
-        "scripts": ["background.js"],
-        "persistent" :false
-    }
+  "manifest_version": 3,
+  "name": "Abrir site no horário",
+  "description": "Esta extensão abre um site no horário especificado pelo usuário",
+  "version": "1.1.0.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "/script/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
