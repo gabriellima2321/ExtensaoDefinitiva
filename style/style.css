@@ -1,4 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
-    background: linear-gradient(to bottom right, #b4eeb4, #8fbc8f);
+    width: 400px;
+    height: 100vh;
+}
+
+.cabecalho {
+    padding: 0 10px 0 16px;
+    display: flex;
+    justify-content:space-evenly;
+    font-family:Krona One;
+    color: #f6f6f6;
+    background-color: #0383a0;
+    font-family: 'Krona One', sans-serif;
+    text-align:justify;
+}
+
+body header .empresa{
+    color: #f6f6f6;
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+body header .Destaque-empresa{
+    color: #13f129;
+    font-size: 25px;
+    text-align: center;
+}
+
+.informacoes__Processo {
+    padding: 3% 2%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 15px;
+}
+
+.informacoes__botoes{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.informacoes__botoes #informacoes__botoes__definirHorario { 
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.informacoes__botoes #informacoes__botoes__removerHorario { 
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.informacoes__botoes #informacoes__botoes__listaHorario { 
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2%;
 }

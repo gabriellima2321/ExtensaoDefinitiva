@@ -1,4 +1,5 @@
 function addSite() {
+  console.log('Elemento clicado');
   var site = "https://www."+document.getElementById("site").value;
   var time = document.getElementById("horario").value;
   var hora = time.split(":")[0];
@@ -66,15 +67,14 @@ function listaSites() {
   });
 }
 
-
   document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('definirHorario')
+    document.getElementById("informacoes__botoes__definirHorario")
     .addEventListener('click', addSite)});
 
   document.addEventListener('DOMContentLoaded', function () {
-      document.getElementById('removerHorario')
+      document.getElementById('informacoes__botoes__removerHorario')
       .addEventListener('click', removeSite)});
 
   document.addEventListener('DOMContentLoaded', function () {
-        document.getElementById('listaHorario')
+        document.getElementById('informacoes__botoes__listaHorario')
         .addEventListener('click', listaSites)});
